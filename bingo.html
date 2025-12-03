@@ -48,7 +48,7 @@
 </head>
 <body>
 
-<h2>🎉 직접 입력하는 5×5 빙고판</h2>
+<h2> 파스텍 종무식 빙고 이벤트</h2>
 <p>칸을 클릭하여 내용을 입력하세요. 다시 누르면 체크됩니다.</p>
 
 <div id="bingo"></div>
@@ -82,14 +82,10 @@
         bingo.appendChild(cell);
     }
 
-    // 초기화 버튼
-    document.getElementById("resetBtn").addEventListener("click", () => {
-        document.querySelectorAll(".cell").forEach(cell => {
-            cell.textContent = "";
-            cell.classList.remove("marked");
-        });
+   
     });
 </script>
 
 </body>
 </html>
+
